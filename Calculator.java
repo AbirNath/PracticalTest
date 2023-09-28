@@ -22,16 +22,16 @@ public class Calculator {
 			System.out.println("Result = "+(num1+num2));	//to perform addition and display the result
 			break;
 		case 2:
-			System.out.println("Result = "+(num1-num2));	//to perform addition and display the result
+			System.out.println("Result = "+(num1-num2));	//to perform subtraction and display the result
 			break;
 		case 3:
-			System.out.println("Result = "+(num1*num2));	//to perform addition and display the result
+			System.out.println("Result = "+(num1*num2));	//to perform multiplication and display the result
 			break;
 		case 4:
-			System.out.println("Result = "+(num1/num2));	//to perform addition and display the result	
+			System.out.println("Result = "+(num1/num2));	//to perform division and display the result	
 			break;
 		default :
-			System.out.println("Wrong Input !!!");	//if the choice is wrong 
+			System.out.println("Wrong Input !!!");	//Prints the message if the choice is wrong 
 		}
 	}
 
